@@ -14,3 +14,4 @@ for file in files:
     else:
         os.makedirs(path+'/'+extension)
         shutil.move(path+'/'+file, path+'/'+extension+'/'+file)
+print("THE FILES HAVE BEEN ORGANIZED😁")
